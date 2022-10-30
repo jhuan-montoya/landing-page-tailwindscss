@@ -1,7 +1,7 @@
 {
   "name": "simple-light-react",
   "version": "0.1.0",
-  "homepage": "landing-page-tailwindscss/",
+  "homepage": "https://jhuan-montoya.github.io/landing-page-tailwindscss",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
