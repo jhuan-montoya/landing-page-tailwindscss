@@ -8,7 +8,6 @@
 @import 'additional-styles/range-slider.css';
 @import 'additional-styles/toggle-switch.css';
 @import 'additional-styles/theme.css';
-
 @import 'tailwindcss/utilities';
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
@@ -24,5 +23,6 @@
 }
 
 .bg-img-m {
-    background-image: src("src\images\a.jpg");
+    background-image: url("../images/a.jpg") !important;
 }
+
