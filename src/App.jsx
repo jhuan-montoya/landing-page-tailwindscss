@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      <Routes>
+      <Routes basename="/landing-page-tailwindscss">
         <Route exact path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
