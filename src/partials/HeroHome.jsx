@@ -11,7 +11,7 @@ function HeroHome() {
   return (
     <section className="relative">
        {/* Section background (needs .relative class on parent and next sibling elements) */}
-       <div className="relative h-screen bg-cover bg-hero-pattern" aria-hidden="true">
+       <div className="relative h-screen bg-cover bg-[url('src/images/a.jpg')]" aria-hidden="true">
         <div className='flex items-center font-mono inset-0 absolute text-6xl w-full bg-gray-400/50'>
           <div className='p-6 font-bold text-white w-2/5	'>
           Projeto <span className=''>para contruir </span><span>um novo futuro</span>
